@@ -1,0 +1,530 @@
+.imp{
+  padding-top: 10vw;
+  padding-left:  70vw;
+  text-align: center;
+  padding-right: 0;
+  color: pink;
+  background-image: url("2021-04-11.png");
+  height: 30vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 5vw;
+  padding-bottom: 7vw;
+}
+h1{
+  display: block;
+  background-color: #bdc7c9;
+  font-size: 2vw;
+  color: #2b4f60;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+p
+{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 1.25vw;
+}
+h2{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 1.75vw;
+  color: #7868e6;
+}
+
+h3{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 1.5vw;
+  color: #93329e;
+}
+
+div {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+ margin-top: 0;
+ border-top: 0;
+ padding-top: 0;
+  background-color: #e4fbff;
+}
+.child1-rit {
+  border:   10em;
+  height: auto;
+  width: 40em;
+  float: right;
+}
+.child1-img-rit{
+  border: 10em;
+  height: auto;
+  max-width: 100%;
+}
+
+.ini {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.cont {
+  text-align: center;
+}
+
+.ini-pic {
+  border: 0.5em outset #e3f2fd;
+  height: auto;
+  width: 15em;
+  animation: myani;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes myani {
+  50%{
+    border-radius: 75%;
+  }
+}
+.one {
+/*  color: coral;*/
+}
+
+@media screen and (max-width: 480px) {
+
+
+  .one {
+    font-size: 1.5vw;
+  }
+  .ini-pic{
+    width:100%;
+  }
+
+  .ini {
+    font-size: 2vw;
+  }
+  h1{
+    font-size: 2.5vw;
+
+  }
+  h2{
+    font-size: 2vw;
+  }
+  h3{
+    font-size: 1.75vw;
+  }
+  .imp{
+    background-image: url("2021-04-10 (3).png");
+    background-repeat:no-repeat;
+
+  }
+}
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.footer-link {
+  color: #be79df;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+.footer-link:hover{
+  color: blue;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.bottom-container {
+  background-color: #beebe9;
+  margin: 0;
+  padding: 0.5vw;
+  text-align: center;
+}
+.copyright{
+  font-size: 1vw;
+  text-align: center;
+}
+.text{
+  text-align: center;
+}
+.his-left{
+  float: left;
+  background-image:url("banner.jpg");
+  width: 30vw;
+  height: 15vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: solid 2vw #e4fbff;
+}
+.his-rit{
+  float :right;
+  background-image:url("download (1).jfif");
+  width: 25vw;
+  height: 25vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: solid 2vw #e4fbff;
+}
+.re-lft{
+  background-image: url("download (2).jfif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  width: 12vw;
+  height: 11vw;
+}
+.re-rit{
+  background-image: url("download.jfif");
+  background-repeat: no-repeat;
+  background-size:contain;
+  float: right;
+  width:15vw;
+  height: 10vw;
+  border: solid 0.5 #e4fbff
+}
+.ori-lft{
+  float: right;
+  background-image: url("download (3).jfif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20vw;
+  height: 15vw;
+  border: solid 2vw #e4fbff;
+}
+.ear-lft{
+  float: left;
+  background-image: url("download (4).jfif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10vw;
+  height: 12vw;
+  padding-left: 2vw;
+}
+.mod-rit{
+  float: right;
+  background-image: url("download (5).jfif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10vw;
+  height: 10vw
+
+}
+.mod-lft{
+  float: left;
+  background-image: url("download (6).jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25vw;
+  height: 15vw;
+  border: solid  #e4fbff 2vw;
+}
+.mod-rit-2{
+  float: right;
+  background-image: url("images (2).jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25vw;
+  height: 15vw;
+    border: solid  #e4fbff 0.5vw;
+}
+.robo-lft{
+  float: left;
+  background-image: url("images.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20vw;
+  height: 10vw
+}
+.robo-rit{
+  float: right;
+  background-image: url("images (1).jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15vw;
+  height: 12vw;
+}
+.centre{
+  text-align:
+
+}
+.rir{
+  float: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scn{
+  background-image: url("images (3).jfif");
+  height: 16vw;
+  width: 35vw;
+  border: solid 1vw #e4fbff;
+}
+.thr{
+  float: right;
+  background-image: url("images (4).jfif");
+  height:20vw;
+  width: 30vw;
+}
+.proto-lft{
+  float: left;
+  background-image: url("download (8).jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15vw;
+  height: 12vw;
+  border: solid 1vw #e4fbff;
+}
+.proto-rit{
+  float: right;
+  background-image: url("download (7).jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20vw;
+  height: 12vw;
+  border: solid 1vw #e4fbff;
+}
+.etymology{
+  float: right;
+  background-image: url("download.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20vw;
+  height: 15vw;
+  border: solid 1vw #e4fbff;
+}
+.img-rit{
+  float: right;
+}
+.img-lft{
+  float: left;
+}
+.mob-img{
+  height: 17vw;
+  width: auto;
+  border: 2vw solid #e4fbff;
+}
+.ids-img{
+  height: 13vw;
+  width:auto;
+  border: 1vw solid #e4fbff;
+}
+.alice{
+  height: 10vw;
+  width: auto;
+}
+.nao{
+  height:17vw;
+  border:2vw solid #e4fbff;
+  width: auto;
+}
+.mod1{
+  height: 20vw;
+  width: 25vw;
+  border: 2vw solid #e4fbff;
+}
+.mod2{
+  height: 15vw;
+  width: 25vw;
+  border: 2vw solid #e4fbff;
+}
+.collabrative{
+  height: 15vw;
+  width: auto;
+  border: 2vw solid #e4fbff;
+}
+.pie{
+  height: 10vw;
+  width: auto;
+  float: right;
+}
+.mil1{
+  height: 15vw;
+  width: auto;
+  border: 2vw solid #e4fbff;
+}
+.un-em{
+  height: 15vw;
+  width: auto;
+    border: 2vw solid #e4fbff;
+}
+.gpr{
+  height: 18vw;
+  width :auto;
+  border: 2vw solid #e4fbff;
+}
+.pack{
+  border: 2vw solid #e4fbff;
+}
+.agv{
+    border: 2vw solid #e4fbff;
+    height: 20vw;
+    width: auto;
+}
+.i-agv{
+  border: 2vw solid #e4fbff;
+  height: 14vw;
+  width: auto;
+}
+.space{
+  height: 9vw;
+  width: auto;
+    border: 1vw solid #e4fbff;
+}
+.tele{
+  height: 15vw;
+  width: auto;
+    border: 1vw solid #e4fbff;
+}
+.dom{
+  height: 11vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.milli{
+  height: 15vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.milli2{
+  height: 13vw;
+  width: auto;
+  border:  1vw solid #e4fbff;
+}
+.mining{
+  height: 20vw;
+  width: auto;
+  border:  1vw solid #e4fbff;
+}
+.care{
+height: 10vw;
+width: auto;
+border:  1vw solid #e4fbff;
+}
+.pharma1{
+  height: 12vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.pharma2{
+  height: 11vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.bio{
+  height: 15vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+  }
+.shape-change{
+  height: 8vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.lab{
+  height: 12vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.soft{
+  height: 8vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.swarm{
+  height: 10vw;
+  width:auto;
+  border: 1vw solid #e4fbff;
+}
+.heptic{
+  height: 10vw;
+  width:auto;
+  border: 1vw solid #e4fbff;
+}
+.art-sculpture{
+  height: 15vw;
+  width: auto;
+  border-radius: 1vw solid #e4fbff;
+}
+.books{
+  height: 20vw;
+  width: auto;
+  border: 1vw solid #e4fbff;
+}
+.movies{
+  height: 12vw;
+  width: auto;
+  border: 1vw auto #e4fbff;
+}
